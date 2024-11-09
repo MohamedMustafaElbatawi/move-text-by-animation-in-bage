@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* *,
+*:before,
+*:after {
+    box-sizing: inherit;
+} */
+
+/* body { */
+/* background: #00030050; */
+/* background: #fab946; */
+/* background: #b73b52; */
+/* background-image: linear-gradient(to right, #01022d, #000); */
+/* background: linear-gradient(to right, #000004e5, #06040478 30%),url(image/pexels-adria-masi-461420600-27962178.jpg) ; */
+/* background: linear-gradient(#111, #222);  */
+/* background-image: linear-gradient(to left, #dfdf68, #d5d8);  */
+/* }  */
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: #355f; */
+}
+
+
+.container{}
+.cont{
+    width: 100%;
+    position: fixed;
+}
+
+.cont header{
+    width: 90%;
+    margin: auto;
+    padding: 12px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cont header .logo a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 33px;
+    font-weight: 600;
+    color: #110022;
+    font-family: "Sofia", sans-serif;
+    
+}
+.cont header ul{
+    display: flex;
+    list-style-type: none;
+}
+.cont header ul a{
+    text-transform: capitalize;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #110022;
+}
+.cont header .sh-search{
+    position: relative;
+    width: 200px;
+}
+.cont header .sh-search input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: 2px solid #110022;
+    padding-left: 28px;
+    font-size: 17px;
+}
+.cont header .sh-search i{
+    position: absolute;
+    top: 7px;
+    left: 4px;
+    font-size: 18px;
+    border-right:2px solid #110022 ;
+    padding: 0 2px 0 0;
+}
+
+.content{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
+.content .text{
+    font-size: 27px;
+    color: red;
+}
+.content .name{
+    font-size: 75px;
+    color: red;
+    margin: -4px 0 0 -30px;
+}
+.content .job{
+    font-size: 40px;
+    display: flex;
+}
+
+.content .job .typing-text{
+    margin-left: 10px;
+    color: aqua;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid rgb(34, 0, 255);
+    animation: typing 5s steps(15) infinite;
+}
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 15ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
